@@ -1,0 +1,384 @@
+@media (max-width: 991.98px) {
+  /* --------START SIDEBAR----------*/
+
+  .sidebar-back-button {
+    display: block;
+  }
+
+  .sidebar-back {
+    display: block;
+  }
+
+  .sidebar-back .back-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidebar {
+    width: 300px;
+    position: fixed;
+    transform: translateX(-100%);
+    z-index: 1040;
+  }
+
+  .sidebar.show {
+    transform: translateX(0);
+  }
+
+  /* --------END SIDEBAR----------*/
+
+  /* --------START TOPBAR----------*/
+
+  .topbar {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .topbar .toggle-btn {
+    display: block;
+    margin-right: 10px;
+  }
+
+  /* --------START TOPBAR----------*/
+
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+    padding: 0px 20px;
+    padding-top: 80px;
+    background: #f5f7fa;
+    min-height: 100vh;
+  }
+
+  /* --------START CARD----------*/
+
+  .card-box {
+    justify-content: center;
+  }
+
+  /* --------END TOPBAR----------*/
+
+  .table thead {
+    display: none;
+  }
+
+  .table tbody tr {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+
+  .table tbody tr td {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .table tbody tr td:last-child {
+    border-bottom: none;
+    /* Remove the last row's border */
+  }
+
+  .table tbody tr td::before {
+    content: attr(data-label);
+    font-weight: 500;
+    font-family: "Product Sans Medium";
+    font-size: 15px;
+    color: #767676;
+  }
+
+  .topbar {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .table-format {
+    padding: 15px 15px;
+  }
+
+  .partner-details-create-btn {
+    margin-top: 0px;
+  }
+
+  .partner-details-create-btn-wrap {
+    padding: 5px 15px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    background: #f5f7fa;
+    margin-left: 300px;
+    padding: 0px 20px;
+    padding-top: 80px;
+    min-height: 100vh;
+  }
+
+}
+
+@media (max-width: 767px) {
+  /* --------START TOPBAR----------*/
+
+  .topbar-right {
+    display: none !important;
+  }
+
+  .dashboard-icon {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .topbar .toggle-btn {
+    margin-right: 10px;
+  }
+
+  .back-light,
+  .dashboard-icon {
+    padding: 8px;
+  }
+
+  .topbar-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .topbar {
+    justify-content: flex-start;
+  }
+
+  /* --------END TOPBAR----------*/
+
+  /* --------START DASHBOARD----------*/
+
+  .common-top {
+    margin-top: 90px;
+  }
+
+  .breadcrumb {
+    margin-bottom: 0px !important;
+  }
+
+  .breadcrumb-item a,
+  .breadcrumb-item {
+    font-size: 13px;
+  }
+
+  .desc-date {
+    flex-direction: column;
+  }
+
+
+  .notification-card-details p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .create-btn {
+    padding: 10px 20px;
+  }
+
+  .new-notification-details h5 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .icon {
+    width: 50px;
+    height: 47px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #ebe5ee;
+    padding: 6px 12px;
+    border: 1px solid #d0d0d0;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+
+  .table-heading h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .label-set {
+    margin-bottom: 15px;
+  }
+
+  .label-set label {
+    font-size: 16px;
+    margin-bottom: 5px !important;
+  }
+
+  .form-control {
+    font-size: 13px;
+  }
+
+  .view-all {
+    padding: 8px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .project-details-button-set {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .partner-details-create-btn {
+    justify-content: start;
+  }
+
+  .top-space {
+    margin-top: 20px;
+  }
+
+  .person-details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .table-format {
+    margin-top: 120px;
+  }
+
+  .table-heading-set {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .chart-drop {
+    margin-top: 10px;
+  }
+
+  .chart-dropdown {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .number {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .card-item {
+    min-height: 150px;
+    padding: 15px;
+  }
+
+  .table-formats {
+    padding: 15px 15px;
+  }
+
+  .table {
+    margin-bottom: 0rem;
+  }
+
+  .main-content {
+    padding: 0px 15px;
+    padding-bottom: 15px;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+  }
+
+  .btn-requirement,
+  .btn-cancel {
+    padding: 5px 15px;
+  }
+
+  .table-headings h5 {
+    font-size: 18px;
+  }
+
+  /* --------END DASHBOARD----------*/
+  .view-details {
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+  .table tbody td {
+    font-size: 14px;
+  }
+
+  .table thead th {
+    font-size: 13px;
+  }
+
+  .recharts-text tspan {
+    font-size: 10px;
+  }
+
+  .person-details-data-set {
+    flex-direction: column;
+  }
+
+  .person-details-data-wrap {
+    margin-top: 20px;
+  }
+
+  .mobilescreen {
+    display: none;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .number {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .card-item {
+    min-height: 120px;
+    padding: 10px;
+  }
+
+  .chart-dropdown h5 {
+    font-size: 1rem;
+  }
+
+  .chart-drop select {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
